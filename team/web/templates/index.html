@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>How Much Fish?</title>
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core CSS -->
+
+  <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+
+
+  <!-- Material Design Bootstrap -->
+
+    <link href="{{url_for('static', filename='css/mdb.min.css')}}" rel="stylesheet">
+
+
+
+  <!-- Your custom styles (optional) -->
+
+    <link href="{{url_for('static', filename='css/style.min.css')}}" rel="stylesheet">
+
+
+  <style type="text/css">
+
+
+
+    html,
+
+    body,
+
+    header,
+
+    .carousel {
+
+      height: 100%;
+
+    }
+
+
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+            .navbar:not(.top-nav-collapse) {
+
+                background: #1C2331!important;
+
+            }
+
+        }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+
+        <strong>How Much Fish?</strong>
+
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+
+        aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+
+            <a class="nav-link" href="#">HOME
+
+              <span class="sr-only">(current)</span>
+
+            </a>
+
+          </li>
+
+        </ul>
+
+
+
+        <ul class="navbar-nav nav-flex-icons">
+
+          <li class="nav-item">
+
+            <a href="#" class="nav-link border border-light rounded"
+
+              target="_blank">
+
+              <i class="fa fa-github mr-2"></i>GITHUB
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+
+      <div class="carousel-item active">
+
+        <div class="view">
+
+          <video class="video-intro" autoplay loop>
+
+             <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4">
+
+          </video>
+
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+
+                <strong>수산물 가격 예측 모델</strong>
+
+              </h1>
+                 <div class="parallax-box">
+            <div class="container">
+               <div class="text align-center">
+                  <h1>추후 가격을 예측하고 싶으십니까?</h1>
+                  <!-- <p>navigare necesse est, vivere non est necesse</p> -->
+
+                  <a href="#" class="btn btn-special no-icon size-2x">수산물 검색</a>
+               </div>
+            </div>
+         </div>
+<form class="destinations-form">
+                     <div class="input-line">
+                        <input type="text" name="destination" value="" class="form-input check-value" placeholder="어떤 수산물을 찾으세요?" />
+                        <button type="button" name="destination-submit" class="form-submit btn btn-special">검색</button>
+                     </div>
+                  </form>
+
+              <p>
+
+                <strong>빠르고 정확하게 향후 수산물 가격을 예측합니다.</strong>
+
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+
+                <strong>기상청 전국 기온 및 강수량 데이터와 전국 월별 수산물 가격 빅 데이터를 분석하여 시계열 수치 예측을 수행합니다</strong>
+
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">START
+
+                <i class="fa fa-graduation-cap ml-2"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="carousel-item">
+
+        <div class="view">
+
+          <video class="video-intro" autoplay loop>
+
+              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4">
+
+          </video>
+
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+
+                <strong>수산물 가격 예측  로봇</strong>
+
+              </h1>
+
+              <p>
+
+                <strong>빠르고 정확하게 향후 수산물 가격을 예측합니다.</strong>
+
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+
+                <strong>기상청 전국 기온 및 강수량 데이터와 전국 월별 수산물 가격 빅 데이터를 분석하여 시계열 수치 예측을 수행합니다</strong>
+
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">START
+
+                <i class="fa fa-graduation-cap ml-2"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="carousel-item">
+
+        <div class="view">
+
+          <video class="video-intro" autoplay loop>
+
+              <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+
+          </video>
+
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+
+              <h1 class="mb-4">
+
+                <strong>수산물 가격 예측 AI 로봇</strong>
+
+              </h1>
+
+              <p>
+
+                <strong>빠르고 정확하게 향후 수산물 가격을 예측합니다.</strong>
+
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+
+                <strong>기상청 전국 기온 및 강수량 데이터와 전국 월별 수산물 가격 빅 데이터를 분석하여 시계열 수치 예측을 수행합니다</strong>
+
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">START
+
+                <i class="fa fa-graduation-cap ml-2"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      <span class="sr-only">Previous</span>
+
+    </a>
+
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      <span class="sr-only">Next</span>
+
+    </a>
+
+
+
+  </div>
+
+
+
+  <main>
+
+    <div class="container">
+
+      <section class="mt-5 wow fadeIn">
+
+        <div class="row">
+
+          <div class="col-md-6 mb-4">
+            <!--img src="/Users/gwang-young/Desktop/team/web/static/img/data.jpeg" alt="My Image" class="img-responsive img-rounded"-->
+            <!--img src="http://img.danawa.com/cp_images/service/33/3608360/b9de2e9f.jpg" alt="..." class="img-responsive img-rounded"-->
+
+           <img src="http://danmee.chosun.com/site/data/img_dir/2008/04/24/2008042400367_0.jpg" class="img-fluid z-depth-1-half" alt=""> 
+
+
+          </div>
+
+          <div class="col-md-6 mb-4">
+
+            <h3 class="h3 mb-3">수산물 가격 예측 결과</h3>
+
+            <p>머신 러닝 선형 회귀(Linear Regression) 모델을 확장하여 시계열에 따른 수산물 가격을 예측하고 학습 결과를 확인했습니다. 미래의 수산물 가격을 효과적으로 예측할 수 있습니다.</p>
+
+            <hr>
+
+            <p>2,900개 이상의 데이터를 활용하여 적은 오차율을 보이는 수산물 가격 예측 모델을 개발했습니다.
+
+            </p>
+
+            <a target="_blank" href="#" class="btn btn-grey btn-md">Download
+
+              <i class="fa fa-download ml-1"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <hr class="my-5">
+
+
+
+      <section>
+
+        <h3 class="h3 text-center mb-5">수산물 가격 예측하기</h3>
+
+        <div class="row wow fadeIn">
+
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <form action="/" method="post">
+
+              <div class="form-group">
+
+                <label for="formGroupExampleInput">평균 온도</label>
+
+                <input type="text" name="avg_temp" class="form-control" placeholder="평균 온도를 입력하세요.">
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="formGroupExampleInput">최소 온도</label>
+
+                <input type="text" name="min_temp" class="form-control" placeholder="최소 온도를 입력하세요.">
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="formGroupExampleInput">최대 온도</label>
+
+                <input type="text" name="max_temp" class="form-control" placeholder="최대 온도를 입력하세요.">
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="formGroupExampleInput">강수량</label>
+
+                <input type="text" name="rain_fall" class="form-control" placeholder="강수량을 입력하세요.">
+
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-md pull-right">예측하기</button>
+
+            </form>
+
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+
+            {% if price %}
+
+              <h5 class="text-center mt-3">결과: {{ price }}</h5>
+              <style>
+                div { text-align: center; }
+              </style>
+             <div>  <img src="http://gdimg.gmarket.co.kr/649381104/still/280" alt="..." class="img-responsive img-rounded"  > </div>
+
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <div class="footer-copyright py-3">
+
+      © 2019 Copyright:
+
+      <a href="#" target="_blank"> 팀프로젝트2 </a>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+
+  <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+
+
+  <!-- Bootstrap tooltips -->
+
+  <script type="text/javascript" src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+
+<script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+
+
+  <!-- MDB core JavaScript -->
+
+  <script type="text/javascript" src="{{url_for('static', filename='js/mdb.min.js')}}"></script>
+
+
+
+  <!-- Initializations -->
+
+  <script type="text/javascript">
+
+    // Animations initialization
+
+    new WOW().init();
+
+  </script>
+
+</body>
+
+
+
+</html>
+
+
+
+출처: https://ndb796.tistory.com/130?category=1013932 [안경잡이개발자]
